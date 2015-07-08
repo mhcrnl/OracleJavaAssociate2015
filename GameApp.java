@@ -46,27 +46,8 @@ public class GameApp {
 						System.out.println("Try again");
 						--numberOfLives;
 					}
-
-
-
-					//		if(numberOfLives == 0){
-					//			System.out.println("Game Over!");
-					//			System.out.println("Would you like to continue Y/N");
-					//			userContinueChoice = scan.next();
-					//			userContinueChoice = userContinueChoice.toUpperCase();
-					//		}
-					//		if(userContinueChoice.equals ("N")){
-					//			System.out.println("Goodbye, Thanks for Playing!");
-					//			break;
-					//		}else{
-					//			numberOfLives = 3;
-					//			break gameLoop;
-					//		}
-
-
-
-//					for(;;){
-						if(numberOfLives == 0){
+						
+					if(numberOfLives == 0){
 							System.out.println("Would you like to play again? Y/N");
 							userContinueChoice = scan.next();
 							userContinueChoice = userContinueChoice.toUpperCase();
@@ -83,26 +64,7 @@ public class GameApp {
 				} // End of the Infinite for Loop
 
 
-
-				
-
-
-
-
-
-
 			}// End of While
-
-
-
-
-
-
-
-
-
-
-
 
 	}// End of Main 
 
