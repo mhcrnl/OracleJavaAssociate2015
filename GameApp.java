@@ -23,7 +23,6 @@ public class GameApp {
 			while(numberOfLives <= 3 && numberOfLives > 0){
 				for(;;){
 					randNumber = rand.nextInt(49) + 1; // Creates a random number between 1 and 50
-					System.out.println(randNumber);
 					System.out.println("You have " + numberOfLives + " " + livesLeft);  // Print the number of Lives Left
 					System.out.println("Guess a number between 1 and 50");
 					while(! scan.hasNextInt()){
