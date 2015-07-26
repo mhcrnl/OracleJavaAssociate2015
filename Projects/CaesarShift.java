@@ -47,7 +47,7 @@ public class CaesarShift {
 					}
 					System.out.println("Your String is " + userInput + "\n");
 					System.out.println("Please enter your key for offsetting the encryption");
-					while( ! scan.hasNextInt() ){
+					while( ! scan2.hasNextInt() ){
 						scan.next();
 						System.out.println("\nPlease enter a number");
 
